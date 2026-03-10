@@ -66,6 +66,4 @@ flutter:
        fonts:
          - asset: assets/fonts/Inter-VariableFont_opsz,wght.ttf
 
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+
