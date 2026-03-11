@@ -1,18 +1,9 @@
 import 'package:flutter/material.dart';
+import 'adaptive_dashboard.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AdaptiveDashboard());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-
-    );
-  }
-}
 
