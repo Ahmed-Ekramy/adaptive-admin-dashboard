@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app_colors.dart';
+
 abstract class AppStyles {
   ///styleRegular
   static TextStyle styleRegular16(context) {
@@ -41,7 +43,7 @@ abstract class AppStyles {
 
   static TextStyle styleMedium14(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFF0F172A),
+      color: AppColors.textSecondary,
       fontSize: 14,
       fontFamily: 'Inter',
       fontWeight: FontWeight.w500,
@@ -150,7 +152,7 @@ abstract class AppStyles {
 
   static TextStyle styleBold18(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFFFFFFFF),
+      color:  Colors.black,
       fontSize: 18,
       fontFamily: 'Inter',
       fontWeight: FontWeight.bold,

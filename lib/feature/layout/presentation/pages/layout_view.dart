@@ -13,7 +13,7 @@ class LayoutView extends StatelessWidget {
       body: AdaptiveLayout(
         mobileLayout: (context) => const DashBoardMobileLayout(),
         tabletLayout: (context) => const DashBoardTabletLayout(),
-        desktopLayout: (context) =>  DashboardDesktopLayout(),
+        desktopLayout: (context) => const DashboardDesktopLayout(),
       ),
     );
   }

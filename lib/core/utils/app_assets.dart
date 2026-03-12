@@ -7,4 +7,6 @@ class AppAssets {
  static const String profileAdd="assets/images/profile-add-svgrepo-com.svg";
  static const String profile="assets/images/profile-svgrepo-com.svg";
  static const String users="assets/images/user-group-svgrepo-com.svg";
+ static const String admin="assets/images/admin.svg";
+ static const String logout="assets/images/logout.svg";
 }
