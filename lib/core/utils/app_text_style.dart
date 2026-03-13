@@ -161,7 +161,7 @@ abstract class AppStyles {
 
   static TextStyle styleBold24(BuildContext context) {
     return TextStyle(
-      color: const Color(0xFFFFFFFF),
+      color:Colors.black,
       fontSize: 24,
       fontFamily: 'Inter',
       fontWeight: FontWeight.bold,
