@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
 import '../../../../../core/utils/app_assets.dart';
 import '../../../../../core/utils/app_text_style.dart';
 
@@ -23,6 +22,7 @@ class StatsCards extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 16.0, ),
         child: ListTile(
+          horizontalTitleGap: 0,
           leading:  FittedBox(
             child: Container(
               margin: EdgeInsets.only(right: 16),
@@ -38,7 +38,6 @@ class StatsCards extends StatelessWidget {
           ),
           title:  Text("Total Products", style: AppStyles.styleMedium14(context)),
           subtitle: Text("12", style: AppStyles.styleBold24(context)),
-
         ),
       ),
     );
